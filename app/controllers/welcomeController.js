@@ -12,7 +12,6 @@ router.get('/', function (req, res) {
     // Reply with a hello world when no name param is provided
     res.send('Hello, World!');
 });
-
 router.get('/:name', function (req, res) {
     // Extract the name from the request parameters
     var name = req.params.name;
